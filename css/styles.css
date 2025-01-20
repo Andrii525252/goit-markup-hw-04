@@ -126,6 +126,9 @@ img {
 .title {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: url(/images/title-photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .title-header {
