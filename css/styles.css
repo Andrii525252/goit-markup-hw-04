@@ -244,6 +244,18 @@ img {
   color: #434455;
 }
 
+.features-icon-block {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 /*--------------------------------------Our Team---------------------------- */
 
 .team {
