@@ -94,6 +94,10 @@ img {
   position: relative;
 }
 
+.header-item:first-child .header-item-link {
+  color: #404bbf;
+}
+
 .header-item:first-child .header-item-link::after {
   content: "";
   width: 100%;
@@ -142,6 +146,15 @@ img {
 .title {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/title-photo.jpg);
+  margin: 0 auto;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title-header {
