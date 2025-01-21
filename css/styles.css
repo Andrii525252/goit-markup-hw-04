@@ -94,7 +94,7 @@ img {
   position: relative;
 }
 
-.header-item:first-child .header-item-link:hover::after {
+.header-item:first-child .header-item-link::after {
   content: "";
   width: 100%;
   position: absolute;
